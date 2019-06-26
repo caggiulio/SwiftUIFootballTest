@@ -8,14 +8,12 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 
 enum FontBook: String {
-    case Regular = "Gobold Regular"
-    case Bold = "Gobold Bold"
-    case RegularItalic = "Gobold Italic"
-    case HighBold = "Gobold High Bold"
+    case Regular = "Nike Bureau"
     
-    func of(size: CGFloat) -> UIFont {
-        return UIFont(name: self.rawValue, size: size)!
+    func of(size: CGFloat) -> Font {
+        return Font.custom(self.rawValue, size: size)
     }
 }

@@ -8,7 +8,7 @@
 
 import Foundation
 import PromiseKit
-import  SwiftyJSON
+import SwiftyJSON
 import Combine
 
 public class API: RestClient {

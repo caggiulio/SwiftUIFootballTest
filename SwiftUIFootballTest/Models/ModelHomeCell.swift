@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+class HomeCell {
+    var title: String!
+    var iconString: String!
+    var id: Int!
+    
+    init (title: String, iconString: String, id: Int) {
+        self.title = title
+        self.iconString = iconString
+        self.id = id
+    }
+}

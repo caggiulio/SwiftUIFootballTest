@@ -46,14 +46,6 @@ struct CompetitionCell : View {
             
             Text(competition.area.name)
                 .font(FontBook.Regular.of(size: 25))
-            
-            if competition.currentSeason != nil {
-                if competition.currentSeason.winner != nil {
-                    Spacer()
-                    Text(competition.currentSeason.winner.name)
-                        .font(FontBook.Regular.of(size: 25))
-                }
-            }
         }
         .frame(width: UIScreen.main.bounds.width * 0.9, height: 130, alignment: .center)
     }

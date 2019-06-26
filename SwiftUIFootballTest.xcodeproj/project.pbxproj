@@ -3,18 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4D8CDEE422C0BB6300C8ABFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CDEE322C0BB6300C8ABFB /* AppDelegate.swift */; };
 		4D8CDEE622C0BB6300C8ABFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CDEE522C0BB6300C8ABFB /* SceneDelegate.swift */; };
-		4D8CDEE822C0BB6300C8ABFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CDEE722C0BB6300C8ABFB /* ContentView.swift */; };
 		4D8CDEEA22C0BB6700C8ABFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CDEE922C0BB6700C8ABFB /* Assets.xcassets */; };
 		4D8CDEED22C0BB6700C8ABFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CDEEC22C0BB6700C8ABFB /* Preview Assets.xcassets */; };
 		4D8CDEF022C0BB6700C8ABFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CDEEE22C0BB6700C8ABFB /* LaunchScreen.storyboard */; };
 		4D8CDEFB22C0BB6700C8ABFB /* SwiftUIFootballTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CDEFA22C0BB6700C8ABFB /* SwiftUIFootballTestTests.swift */; };
 		4D8CDF0622C0BB6700C8ABFB /* SwiftUIFootballTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CDF0522C0BB6700C8ABFB /* SwiftUIFootballTestUITests.swift */; };
+		4DD6E07622C0C1EC003C259F /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E07522C0C1EC003C259F /* Networking.swift */; };
+		4DD6E07822C0C32D003C259F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E07722C0C32D003C259F /* API.swift */; };
+		4DD6E07A22C0C3A6003C259F /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E07922C0C3A6003C259F /* HomeList.swift */; };
+		4DD6E07F22C0D606003C259F /* competitions.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DD6E07E22C0D605003C259F /* competitions.json */; };
+		4DD6E08722C0D775003C259F /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E08222C0D774003C259F /* Area.swift */; };
+		4DD6E08822C0D775003C259F /* Winner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E08322C0D775003C259F /* Winner.swift */; };
+		4DD6E08922C0D775003C259F /* CurrentSeason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E08422C0D775003C259F /* CurrentSeason.swift */; };
+		4DD6E08A22C0D775003C259F /* Competition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E08522C0D775003C259F /* Competition.swift */; };
+		4DD6E08B22C0D775003C259F /* CompetitionsRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E08622C0D775003C259F /* CompetitionsRoot.swift */; };
+		4DD6E08D22C0D7AA003C259F /* SharedMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E08C22C0D7AA003C259F /* SharedMock.swift */; };
+		4DD6E08F22C0D973003C259F /* HomeCellSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E08E22C0D973003C259F /* HomeCellSwiftUIView.swift */; };
+		4DD6E09122C10B44003C259F /* ModelHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E09022C10B44003C259F /* ModelHomeCell.swift */; };
+		4DD6E09322C10F15003C259F /* FontBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E09222C10F15003C259F /* FontBook.swift */; };
+		4DD6E09D22C116D5003C259F /* Nike Bureau.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DD6E09C22C116D5003C259F /* Nike Bureau.otf */; };
+		4DD6E0A222C11884003C259F /* ModelHomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E0A122C11884003C259F /* ModelHomeList.swift */; };
+		4DD6E0A422C22DEC003C259F /* EmptyViewSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E0A322C22DEC003C259F /* EmptyViewSwiftUIView.swift */; };
+		4DD6E0A622C24917003C259F /* CompetitionCellSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E0A522C24917003C259F /* CompetitionCellSwiftUIView.swift */; };
+		4DD6E0A922C25C62003C259F /* CompetitionsListSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6E0A822C25C62003C259F /* CompetitionsListSwiftUIView.swift */; };
+		4DDA311422C2A328001A57A5 /* CompetitionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDA311322C2A328001A57A5 /* CompetitionsViewModel.swift */; };
+		4E0914DD86C5E7F8BA3CBCB2 /* Pods_SwiftUIFootballTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16B219A1B784CD281364E24 /* Pods_SwiftUIFootballTestTests.framework */; };
+		9AF96832C68296A2886A5FCC /* Pods_SwiftUIFootballTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38049FBCBA4FDF96EA38AF76 /* Pods_SwiftUIFootballTestUITests.framework */; };
+		B8E829B7A71A837F24787610 /* Pods_SwiftUIFootballTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112D158D9E1D28237A7E5DCB /* Pods_SwiftUIFootballTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +56,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112D158D9E1D28237A7E5DCB /* Pods_SwiftUIFootballTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIFootballTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FFA9AE535E730E1479FBA9 /* Pods-SwiftUIFootballTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIFootballTestUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIFootballTestUITests/Pods-SwiftUIFootballTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3516E9202D4C5ABCEA65723B /* Pods-SwiftUIFootballTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIFootballTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIFootballTestUITests/Pods-SwiftUIFootballTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		38049FBCBA4FDF96EA38AF76 /* Pods_SwiftUIFootballTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIFootballTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8CDEE022C0BB6300C8ABFB /* SwiftUIFootballTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFootballTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8CDEE322C0BB6300C8ABFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D8CDEE522C0BB6300C8ABFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D8CDEE722C0BB6300C8ABFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D8CDEE922C0BB6700C8ABFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D8CDEEC22C0BB6700C8ABFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D8CDEEF22C0BB6700C8ABFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +73,30 @@
 		4D8CDF0122C0BB6700C8ABFB /* SwiftUIFootballTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIFootballTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8CDF0522C0BB6700C8ABFB /* SwiftUIFootballTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFootballTestUITests.swift; sourceTree = "<group>"; };
 		4D8CDF0722C0BB6700C8ABFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD6E07522C0C1EC003C259F /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		4DD6E07722C0C32D003C259F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4DD6E07922C0C3A6003C259F /* HomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
+		4DD6E07E22C0D605003C259F /* competitions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = competitions.json; sourceTree = "<group>"; };
+		4DD6E08222C0D774003C259F /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		4DD6E08322C0D775003C259F /* Winner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Winner.swift; sourceTree = "<group>"; };
+		4DD6E08422C0D775003C259F /* CurrentSeason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentSeason.swift; sourceTree = "<group>"; };
+		4DD6E08522C0D775003C259F /* Competition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Competition.swift; sourceTree = "<group>"; };
+		4DD6E08622C0D775003C259F /* CompetitionsRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompetitionsRoot.swift; sourceTree = "<group>"; };
+		4DD6E08C22C0D7AA003C259F /* SharedMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedMock.swift; sourceTree = "<group>"; };
+		4DD6E08E22C0D973003C259F /* HomeCellSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellSwiftUIView.swift; sourceTree = "<group>"; };
+		4DD6E09022C10B44003C259F /* ModelHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelHomeCell.swift; sourceTree = "<group>"; };
+		4DD6E09222C10F15003C259F /* FontBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBook.swift; sourceTree = "<group>"; };
+		4DD6E09C22C116D5003C259F /* Nike Bureau.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nike Bureau.otf"; sourceTree = "<group>"; };
+		4DD6E0A122C11884003C259F /* ModelHomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelHomeList.swift; sourceTree = "<group>"; };
+		4DD6E0A322C22DEC003C259F /* EmptyViewSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewSwiftUIView.swift; sourceTree = "<group>"; };
+		4DD6E0A522C24917003C259F /* CompetitionCellSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionCellSwiftUIView.swift; sourceTree = "<group>"; };
+		4DD6E0A822C25C62003C259F /* CompetitionsListSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionsListSwiftUIView.swift; sourceTree = "<group>"; };
+		4DDA311322C2A328001A57A5 /* CompetitionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionsViewModel.swift; sourceTree = "<group>"; };
+		5EF6F054EE0905B427017EBA /* Pods-SwiftUIFootballTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIFootballTestTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIFootballTestTests/Pods-SwiftUIFootballTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA493D2A8BC0E7EA5E2613A2 /* Pods-SwiftUIFootballTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIFootballTest.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIFootballTest/Pods-SwiftUIFootballTest.release.xcconfig"; sourceTree = "<group>"; };
+		B0FA4712F798230AF6022B12 /* Pods-SwiftUIFootballTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIFootballTestTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIFootballTestTests/Pods-SwiftUIFootballTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C822F93A50DE64504CBD7527 /* Pods-SwiftUIFootballTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIFootballTest.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIFootballTest/Pods-SwiftUIFootballTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F16B219A1B784CD281364E24 /* Pods_SwiftUIFootballTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIFootballTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8E829B7A71A837F24787610 /* Pods_SwiftUIFootballTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E0914DD86C5E7F8BA3CBCB2 /* Pods_SwiftUIFootballTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AF96832C68296A2886A5FCC /* Pods_SwiftUIFootballTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +134,8 @@
 				4D8CDEF922C0BB6700C8ABFB /* SwiftUIFootballTestTests */,
 				4D8CDF0422C0BB6700C8ABFB /* SwiftUIFootballTestUITests */,
 				4D8CDEE122C0BB6300C8ABFB /* Products */,
+				8CCCC967DD94D19F1179C1FA /* Pods */,
+				7A2BD91AD5EAD20B43821009 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +152,14 @@
 		4D8CDEE222C0BB6300C8ABFB /* SwiftUIFootballTest */ = {
 			isa = PBXGroup;
 			children = (
+				4DD6E09422C10F28003C259F /* Utils */,
+				4DD6E08122C0D76C003C259F /* Models */,
+				4DD6E07B22C0D50E003C259F /* Networking */,
+				4DD6E08022C0D612003C259F /* JSON_for_preview */,
+				4DE3C5BD22C36C3D004F6F8D /* ViewModel */,
+				4DD6E0A022C117DD003C259F /* View */,
 				4D8CDEE322C0BB6300C8ABFB /* AppDelegate.swift */,
 				4D8CDEE522C0BB6300C8ABFB /* SceneDelegate.swift */,
-				4D8CDEE722C0BB6300C8ABFB /* ContentView.swift */,
 				4D8CDEE922C0BB6700C8ABFB /* Assets.xcassets */,
 				4D8CDEEE22C0BB6700C8ABFB /* LaunchScreen.storyboard */,
 				4D8CDEF122C0BB6700C8ABFB /* Info.plist */,
@@ -136,6 +194,114 @@
 			path = SwiftUIFootballTestUITests;
 			sourceTree = "<group>";
 		};
+		4DD6E07B22C0D50E003C259F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4DD6E07522C0C1EC003C259F /* Networking.swift */,
+				4DD6E07722C0C32D003C259F /* API.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4DD6E08022C0D612003C259F /* JSON_for_preview */ = {
+			isa = PBXGroup;
+			children = (
+				4DD6E08C22C0D7AA003C259F /* SharedMock.swift */,
+				4DD6E07E22C0D605003C259F /* competitions.json */,
+			);
+			path = JSON_for_preview;
+			sourceTree = "<group>";
+		};
+		4DD6E08122C0D76C003C259F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DD6E08222C0D774003C259F /* Area.swift */,
+				4DD6E08522C0D775003C259F /* Competition.swift */,
+				4DD6E08622C0D775003C259F /* CompetitionsRoot.swift */,
+				4DD6E08422C0D775003C259F /* CurrentSeason.swift */,
+				4DD6E08322C0D775003C259F /* Winner.swift */,
+				4DD6E09022C10B44003C259F /* ModelHomeCell.swift */,
+				4DD6E0A122C11884003C259F /* ModelHomeList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DD6E09422C10F28003C259F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4DD6E09722C10F54003C259F /* Font */,
+				4DD6E09222C10F15003C259F /* FontBook.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4DD6E09722C10F54003C259F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				4DD6E09C22C116D5003C259F /* Nike Bureau.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		4DD6E0A022C117DD003C259F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4DD6E0A722C24D07003C259F /* Home */,
+				4DD6E0A322C22DEC003C259F /* EmptyViewSwiftUIView.swift */,
+				4DE3C5BC22C34BC2004F6F8D /* Competitions */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4DD6E0A722C24D07003C259F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4DD6E07922C0C3A6003C259F /* HomeList.swift */,
+				4DD6E08E22C0D973003C259F /* HomeCellSwiftUIView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4DE3C5BC22C34BC2004F6F8D /* Competitions */ = {
+			isa = PBXGroup;
+			children = (
+				4DD6E0A522C24917003C259F /* CompetitionCellSwiftUIView.swift */,
+				4DD6E0A822C25C62003C259F /* CompetitionsListSwiftUIView.swift */,
+			);
+			path = Competitions;
+			sourceTree = "<group>";
+		};
+		4DE3C5BD22C36C3D004F6F8D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4DDA311322C2A328001A57A5 /* CompetitionsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7A2BD91AD5EAD20B43821009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112D158D9E1D28237A7E5DCB /* Pods_SwiftUIFootballTest.framework */,
+				F16B219A1B784CD281364E24 /* Pods_SwiftUIFootballTestTests.framework */,
+				38049FBCBA4FDF96EA38AF76 /* Pods_SwiftUIFootballTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CCCC967DD94D19F1179C1FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C822F93A50DE64504CBD7527 /* Pods-SwiftUIFootballTest.debug.xcconfig */,
+				AA493D2A8BC0E7EA5E2613A2 /* Pods-SwiftUIFootballTest.release.xcconfig */,
+				B0FA4712F798230AF6022B12 /* Pods-SwiftUIFootballTestTests.debug.xcconfig */,
+				5EF6F054EE0905B427017EBA /* Pods-SwiftUIFootballTestTests.release.xcconfig */,
+				3516E9202D4C5ABCEA65723B /* Pods-SwiftUIFootballTestUITests.debug.xcconfig */,
+				34FFA9AE535E730E1479FBA9 /* Pods-SwiftUIFootballTestUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D8CDF0A22C0BB6700C8ABFB /* Build configuration list for PBXNativeTarget "SwiftUIFootballTest" */;
 			buildPhases = (
+				5DA7E015B00A9609E297502E /* [CP] Check Pods Manifest.lock */,
 				4D8CDEDC22C0BB6300C8ABFB /* Sources */,
 				4D8CDEDD22C0BB6300C8ABFB /* Frameworks */,
 				4D8CDEDE22C0BB6300C8ABFB /* Resources */,
+				6477792F3FB96F709029668C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +328,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D8CDF0D22C0BB6700C8ABFB /* Build configuration list for PBXNativeTarget "SwiftUIFootballTestTests" */;
 			buildPhases = (
+				4CC1E92B8BC0C333940E5DDD /* [CP] Check Pods Manifest.lock */,
 				4D8CDEF222C0BB6700C8ABFB /* Sources */,
 				4D8CDEF322C0BB6700C8ABFB /* Frameworks */,
 				4D8CDEF422C0BB6700C8ABFB /* Resources */,
@@ -178,6 +347,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D8CDF1022C0BB6700C8ABFB /* Build configuration list for PBXNativeTarget "SwiftUIFootballTestUITests" */;
 			buildPhases = (
+				F1A7A1CECF9A65D24EF4069F /* [CP] Check Pods Manifest.lock */,
 				4D8CDEFD22C0BB6700C8ABFB /* Sources */,
 				4D8CDEFE22C0BB6700C8ABFB /* Frameworks */,
 				4D8CDEFF22C0BB6700C8ABFB /* Resources */,
@@ -243,6 +413,8 @@
 				4D8CDEF022C0BB6700C8ABFB /* LaunchScreen.storyboard in Resources */,
 				4D8CDEED22C0BB6700C8ABFB /* Preview Assets.xcassets in Resources */,
 				4D8CDEEA22C0BB6700C8ABFB /* Assets.xcassets in Resources */,
+				4DD6E09D22C116D5003C259F /* Nike Bureau.otf in Resources */,
+				4DD6E07F22C0D606003C259F /* competitions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,14 +434,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CC1E92B8BC0C333940E5DDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIFootballTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DA7E015B00A9609E297502E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIFootballTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6477792F3FB96F709029668C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIFootballTest/Pods-SwiftUIFootballTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIFootballTest/Pods-SwiftUIFootballTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIFootballTest/Pods-SwiftUIFootballTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1A7A1CECF9A65D24EF4069F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIFootballTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D8CDEDC22C0BB6300C8ABFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD6E0A922C25C62003C259F /* CompetitionsListSwiftUIView.swift in Sources */,
+				4DD6E07622C0C1EC003C259F /* Networking.swift in Sources */,
+				4DD6E07A22C0C3A6003C259F /* HomeList.swift in Sources */,
+				4DD6E08922C0D775003C259F /* CurrentSeason.swift in Sources */,
+				4DD6E08F22C0D973003C259F /* HomeCellSwiftUIView.swift in Sources */,
 				4D8CDEE422C0BB6300C8ABFB /* AppDelegate.swift in Sources */,
+				4DD6E0A422C22DEC003C259F /* EmptyViewSwiftUIView.swift in Sources */,
+				4DD6E09322C10F15003C259F /* FontBook.swift in Sources */,
+				4DD6E08A22C0D775003C259F /* Competition.swift in Sources */,
+				4DD6E08822C0D775003C259F /* Winner.swift in Sources */,
+				4DD6E07822C0C32D003C259F /* API.swift in Sources */,
+				4DD6E08722C0D775003C259F /* Area.swift in Sources */,
 				4D8CDEE622C0BB6300C8ABFB /* SceneDelegate.swift in Sources */,
-				4D8CDEE822C0BB6300C8ABFB /* ContentView.swift in Sources */,
+				4DD6E09122C10B44003C259F /* ModelHomeCell.swift in Sources */,
+				4DD6E0A222C11884003C259F /* ModelHomeList.swift in Sources */,
+				4DDA311422C2A328001A57A5 /* CompetitionsViewModel.swift in Sources */,
+				4DD6E08B22C0D775003C259F /* CompetitionsRoot.swift in Sources */,
+				4DD6E08D22C0D7AA003C259F /* SharedMock.swift in Sources */,
+				4DD6E0A622C24917003C259F /* CompetitionCellSwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +706,7 @@
 		};
 		4D8CDF0B22C0BB6700C8ABFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C822F93A50DE64504CBD7527 /* Pods-SwiftUIFootballTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +727,7 @@
 		};
 		4D8CDF0C22C0BB6700C8ABFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA493D2A8BC0E7EA5E2613A2 /* Pods-SwiftUIFootballTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +748,7 @@
 		};
 		4D8CDF0E22C0BB6700C8ABFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0FA4712F798230AF6022B12 /* Pods-SwiftUIFootballTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +770,7 @@
 		};
 		4D8CDF0F22C0BB6700C8ABFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF6F054EE0905B427017EBA /* Pods-SwiftUIFootballTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +792,7 @@
 		};
 		4D8CDF1122C0BB6700C8ABFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3516E9202D4C5ABCEA65723B /* Pods-SwiftUIFootballTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +813,7 @@
 		};
 		4D8CDF1222C0BB6700C8ABFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34FFA9AE535E730E1479FBA9 /* Pods-SwiftUIFootballTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

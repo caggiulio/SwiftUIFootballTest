@@ -16,7 +16,7 @@ class Competition{
 	var area : Area!
 	var code : String!
 	var currentSeason : CurrentSeason!
-	var emblemUrl : AnyObject!
+	var emblemUrl : String!
 	var id : Int!
 	var lastUpdated : String!
 	var name : String!
@@ -32,7 +32,7 @@ class Competition{
 			return
 		}
 		let areaJson = json["area"]
-		if areaJson != JSON.null{
+		if areaJson != JSON.null {
 			area = Area(fromJson: areaJson)
 		}
 		code = json["code"].stringValue

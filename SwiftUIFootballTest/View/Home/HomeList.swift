@@ -9,9 +9,11 @@
 import SwiftUI
 import PromiseKit
 import SwiftyJSON
+import Combine
 
 struct HomeListView : View {
     var list: HomeList
+    @EnvironmentObject var competitionsViewModel: CompetitionsViewModel
     
     var body: some View {
         NavigationView {
@@ -20,7 +22,7 @@ struct HomeListView : View {
                 Text("Football App")
                     .font(FontBook.Regular.of(size: 70))
                 
-                NavigationButton(destination: EmptyView()) {
+                NavigationButton(destination: CompetitionsListSwiftUIView(competitions: competitionsViewModel.competitions)) {
                     HomeCellSwiftUIView(cell: list.list[0])
                 }
                 NavigationButton(destination: EmptyView()) {

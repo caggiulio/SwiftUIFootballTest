@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class HomeList {
+    var list: [HomeCell]
+    
+    init (list: [HomeCell]) {
+        self.list = list
+    }
+}
