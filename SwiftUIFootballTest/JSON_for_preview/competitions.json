@@ -1,0 +1,2986 @@
+{
+  "count" : 148,
+  "filters" : {
+
+  },
+  "competitions" : [
+    {
+      "name" : "WC Qualification",
+      "id" : 2006,
+      "area" : {
+        "name" : "Africa",
+        "id" : 2001
+      },
+      "code" : null,
+      "lastUpdated" : "2018-06-04T23:54:04Z",
+      "currentSeason" : {
+        "id" : 7,
+        "startDate" : "2015-10-07",
+        "winner" : null,
+        "endDate" : "2017-11-14",
+        "currentMatchday" : 6
+      },
+      "emblemUrl" : null,
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1
+    },
+    {
+      "id" : 2025,
+      "name" : "Supercopa Argentina",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Argentina",
+        "id" : 2011
+      },
+      "lastUpdated" : "2019-05-03T05:08:18Z",
+      "currentSeason" : {
+        "id" : 430,
+        "startDate" : "2019-04-04",
+        "winner" : null,
+        "endDate" : "2019-04-04",
+        "currentMatchday" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2023,
+      "name" : "Primera B Nacional",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Argentina",
+        "id" : 2011
+      },
+      "lastUpdated" : "2019-06-09T21:45:00Z",
+      "currentSeason" : {
+        "winner" : null,
+        "currentMatchday" : 25,
+        "id" : 295,
+        "startDate" : "2018-08-25",
+        "endDate" : "2019-04-20"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2024,
+      "name" : "Superliga Argentina",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "ASL",
+      "area" : {
+        "name" : "Argentina",
+        "id" : 2011
+      },
+      "lastUpdated" : "2019-04-08T20:15:13Z",
+      "currentSeason" : {
+        "winner" : null,
+        "endDate" : "2019-04-07",
+        "currentMatchday" : 25,
+        "id" : 282,
+        "startDate" : "2018-08-11"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2147,
+      "name" : "WC Qualification",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Asia",
+        "id" : 2014
+      },
+      "lastUpdated" : "2019-06-12T21:00:00Z",
+      "currentSeason" : {
+        "winner" : null,
+        "endDate" : "2021-11-16",
+        "currentMatchday" : null,
+        "startDate" : "2019-06-06",
+        "id" : 465
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2026,
+      "name" : "FFA Cup",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Australia",
+        "id" : 2015
+      },
+      "lastUpdated" : "2019-06-20T20:35:00Z",
+      "currentSeason" : {
+        "winner" : null,
+        "id" : 431,
+        "endDate" : "2019-10-31",
+        "currentMatchday" : null,
+        "startDate" : "2019-02-14"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2008,
+      "name" : "A League",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "AAL",
+      "area" : {
+        "name" : "Australia",
+        "id" : 2015
+      },
+      "lastUpdated" : "2019-05-19T13:29:43Z",
+      "currentSeason" : {
+        "startDate" : "2018-10-19",
+        "currentMatchday" : 27,
+        "id" : 283,
+        "winner" : null,
+        "endDate" : "2019-04-28"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2022,
+      "name" : "Playoffs 1\/2",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 1,
+      "code" : "APL",
+      "area" : {
+        "name" : "Austria",
+        "id" : 2016
+      },
+      "lastUpdated" : "2018-08-23T15:47:33Z",
+      "currentSeason" : {
+        "winner" : {
+          "id" : 2022,
+          "tla" : "STP",
+          "shortName" : "St. Pölten",
+          "crestUrl" : null,
+          "name" : "SKN Sankt Pölten"
+        },
+        "id" : 24,
+        "endDate" : "2018-06-03",
+        "startDate" : "2018-05-31",
+        "currentMatchday" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2012,
+      "name" : "Bundesliga",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 3,
+      "code" : "ABL",
+      "area" : {
+        "name" : "Austria",
+        "id" : 2016
+      },
+      "lastUpdated" : "2019-06-02T19:59:42Z",
+      "currentSeason" : {
+        "startDate" : "2019-07-22",
+        "id" : 470,
+        "winner" : null,
+        "endDate" : "2020-05-26",
+        "currentMatchday" : 1
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2027,
+      "name" : "ÖFB Cup",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "Austria",
+        "id" : 2016
+      },
+      "lastUpdated" : "2019-05-01T18:34:58Z",
+      "currentSeason" : {
+        "endDate" : "2020-05-01",
+        "id" : 491,
+        "currentMatchday" : null,
+        "winner" : null,
+        "startDate" : "2019-07-14"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2020,
+      "name" : "Erste Liga",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "Austria",
+        "id" : 2016
+      },
+      "lastUpdated" : "2019-06-02T18:10:00Z",
+      "currentSeason" : {
+        "startDate" : "2019-07-21",
+        "endDate" : "2020-05-29",
+        "id" : 471,
+        "winner" : null,
+        "currentMatchday" : 1
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2032,
+      "name" : "Playoffs II",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1,
+      "code" : null,
+      "area" : {
+        "name" : "Belgium",
+        "id" : 2023
+      },
+      "lastUpdated" : "2018-06-02T13:08:02Z",
+      "currentSeason" : {
+        "winner" : null,
+        "id" : 34,
+        "endDate" : "2018-05-23",
+        "currentMatchday" : null,
+        "startDate" : "2018-03-31"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2028,
+      "name" : "Coupe de Belgique",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Belgium",
+        "id" : 2023
+      },
+      "lastUpdated" : "2019-05-01T15:34:20Z",
+      "currentSeason" : {
+        "winner" : null,
+        "currentMatchday" : null,
+        "id" : 166,
+        "startDate" : "2018-07-29",
+        "endDate" : "2019-05-31"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2009,
+      "name" : "Jupiler Pro League",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "BJL",
+      "area" : {
+        "name" : "Belgium",
+        "id" : 2023
+      },
+      "lastUpdated" : "2019-05-27T11:25:00Z",
+      "currentSeason" : {
+        "endDate" : "2019-03-17",
+        "winner" : null,
+        "currentMatchday" : 30,
+        "id" : 163,
+        "startDate" : "2018-07-27"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2010,
+      "name" : "Supercoupe de Belgique",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Belgium",
+        "id" : 2023
+      },
+      "lastUpdated" : "2018-06-04T23:58:10Z",
+      "currentSeason" : {
+        "startDate" : "2018-07-22",
+        "currentMatchday" : null,
+        "endDate" : "2018-07-22",
+        "id" : 165,
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2033,
+      "name" : "Division 1B",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Belgium",
+        "id" : 2023
+      },
+      "lastUpdated" : "2019-05-23T12:50:00Z",
+      "currentSeason" : {
+        "winner" : null,
+        "endDate" : "2019-03-01",
+        "id" : 164,
+        "startDate" : "2018-08-03",
+        "currentMatchday" : 28
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2034,
+      "name" : "LFPB",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Bolivia",
+        "id" : 2028
+      },
+      "lastUpdated" : "2019-05-25T04:52:43Z",
+      "currentSeason" : {
+        "startDate" : "2019-01-20",
+        "currentMatchday" : 1,
+        "winner" : null,
+        "id" : 427,
+        "endDate" : "2019-12-31"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2035,
+      "name" : "Premier Liga",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Bosnia and Herzegovina",
+        "id" : 2030
+      },
+      "lastUpdated" : "2019-05-25T20:59:43Z",
+      "currentSeason" : {
+        "startDate" : "2018-07-21",
+        "winner" : null,
+        "id" : 167,
+        "endDate" : "2019-02-09",
+        "currentMatchday" : 20
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2013,
+      "name" : "Série A",
+      "plan" : "TIER_ONE",
+      "numberOfAvailableSeasons" : 3,
+      "code" : "BSA",
+      "area" : {
+        "name" : "Brazil",
+        "id" : 2032
+      },
+      "lastUpdated" : "2019-06-14T12:49:57Z",
+      "currentSeason" : {
+        "startDate" : "2019-04-28",
+        "currentMatchday" : 10,
+        "winner" : null,
+        "endDate" : "2019-12-08",
+        "id" : 460
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2038,
+      "name" : "Série D",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Brazil",
+        "id" : 2032
+      },
+      "lastUpdated" : "2019-06-24T02:30:01Z",
+      "currentSeason" : {
+        "currentMatchday" : 6,
+        "endDate" : "2019-08-18",
+        "id" : 463,
+        "startDate" : "2019-04-05",
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2036,
+      "name" : "Série C",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Brazil",
+        "id" : 2032
+      },
+      "lastUpdated" : "2019-06-24T01:20:00Z",
+      "currentSeason" : {
+        "endDate" : "2019-10-06",
+        "winner" : null,
+        "startDate" : "2019-04-27",
+        "currentMatchday" : 9,
+        "id" : 462
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2029,
+      "name" : "Série B",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "BSB",
+      "area" : {
+        "name" : "Brazil",
+        "id" : 2032
+      },
+      "lastUpdated" : "2019-06-12T05:29:57Z",
+      "currentSeason" : {
+        "id" : 461,
+        "winner" : null,
+        "startDate" : "2019-04-26",
+        "endDate" : "2019-11-30",
+        "currentMatchday" : 9
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2037,
+      "name" : "Copa do Brasil",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Brazil",
+        "id" : 2032
+      },
+      "lastUpdated" : "2019-06-07T02:55:37Z",
+      "currentSeason" : {
+        "currentMatchday" : null,
+        "endDate" : "2019-09-11",
+        "startDate" : "2019-02-06",
+        "id" : 432,
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2039,
+      "name" : "Kupa na Bulgarija",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Bulgaria",
+        "id" : 2035
+      },
+      "lastUpdated" : "2019-05-15T19:07:43Z",
+      "currentSeason" : {
+        "startDate" : "2018-09-25",
+        "currentMatchday" : null,
+        "id" : 419,
+        "endDate" : "2019-05-31",
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2040,
+      "name" : "A PFG",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "Bulgaria",
+        "id" : 2035
+      },
+      "lastUpdated" : "2019-05-28T21:39:22Z",
+      "currentSeason" : {
+        "startDate" : "2019-07-12",
+        "id" : 492,
+        "currentMatchday" : 1,
+        "endDate" : "2020-05-30",
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2041,
+      "name" : "Canadian Championship",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Canada",
+        "id" : 2040
+      },
+      "lastUpdated" : "2019-06-13T21:57:58Z",
+      "currentSeason" : {
+        "startDate" : "2019-05-15",
+        "id" : 433,
+        "endDate" : "2019-09-25",
+        "currentMatchday" : null,
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2043,
+      "name" : "Supercopa de Chile",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "Chile",
+        "id" : 2045
+      },
+      "lastUpdated" : "2019-03-24T20:10:07Z",
+      "currentSeason" : {
+        "endDate" : "2019-03-23",
+        "winner" : null,
+        "startDate" : "2019-03-23",
+        "currentMatchday" : null,
+        "id" : 435
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2048,
+      "name" : "Primera División",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 3,
+      "code" : "CPD",
+      "area" : {
+        "name" : "Chile",
+        "id" : 2045
+      },
+      "lastUpdated" : "2019-06-13T21:59:37Z",
+      "currentSeason" : {
+        "id" : 434,
+        "winner" : null,
+        "currentMatchday" : 15,
+        "startDate" : "2019-02-17",
+        "endDate" : "2019-12-07"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2042,
+      "name" : "Playoffs 1\/2",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1,
+      "code" : null,
+      "area" : {
+        "name" : "Chile",
+        "id" : 2045
+      },
+      "lastUpdated" : "2018-06-05T00:01:23Z",
+      "currentSeason" : {
+        "currentMatchday" : null,
+        "id" : 44,
+        "startDate" : "2017-11-25",
+        "endDate" : "2017-12-21",
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2044,
+      "name" : "Chinese Super League",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "China PR",
+        "id" : 2046
+      },
+      "lastUpdated" : "2019-06-23T16:34:18Z",
+      "currentSeason" : {
+        "id" : 436,
+        "winner" : null,
+        "currentMatchday" : 14,
+        "startDate" : "2019-03-01",
+        "endDate" : "2019-12-01"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2045,
+      "name" : "Liga Postobón",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Colombia",
+        "id" : 2049
+      },
+      "lastUpdated" : "2019-06-13T21:57:58Z",
+      "currentSeason" : {
+        "winner" : null,
+        "currentMatchday" : 1,
+        "id" : 437,
+        "startDate" : "2019-01-27",
+        "endDate" : "2019-12-14"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2046,
+      "name" : "Superliga de Colombia",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Colombia",
+        "id" : 2049
+      },
+      "lastUpdated" : "2018-06-05T00:02:32Z",
+      "currentSeason" : {
+        "id" : 438,
+        "winner" : null,
+        "currentMatchday" : null,
+        "startDate" : "2019-01-24",
+        "endDate" : "2019-01-27"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2047,
+      "name" : "Prva Liga",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "Croatia",
+        "id" : 2058
+      },
+      "lastUpdated" : "2019-05-27T22:10:03Z",
+      "currentSeason" : {
+        "id" : 493,
+        "currentMatchday" : 1,
+        "endDate" : "2020-05-17",
+        "winner" : null,
+        "startDate" : "2019-07-20"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2049,
+      "name" : "Synot Liga",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Czech Republic",
+        "id" : 2062
+      },
+      "lastUpdated" : "2019-06-02T06:20:02Z",
+      "currentSeason" : {
+        "endDate" : "2019-04-27",
+        "currentMatchday" : 30,
+        "startDate" : "2018-07-20",
+        "winner" : null,
+        "id" : 171
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2051,
+      "name" : "DBU Pokalen",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Denmark",
+        "id" : 2065
+      },
+      "lastUpdated" : "2019-05-17T23:50:13Z",
+      "currentSeason" : {
+        "winner" : null,
+        "startDate" : "2018-08-07",
+        "id" : 173,
+        "currentMatchday" : null,
+        "endDate" : "2019-05-31"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2050,
+      "name" : "Superliga",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 3,
+      "code" : "DSU",
+      "area" : {
+        "name" : "Denmark",
+        "id" : 2065
+      },
+      "lastUpdated" : "2019-06-03T18:40:02Z",
+      "currentSeason" : {
+        "winner" : null,
+        "startDate" : "2019-07-12",
+        "currentMatchday" : 1,
+        "endDate" : "2020-05-30",
+        "id" : 494
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2141,
+      "name" : "Play Offs 1\/2",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 0,
+      "code" : null,
+      "area" : {
+        "name" : "Denmark",
+        "id" : 2065
+      },
+      "lastUpdated" : "2018-07-13T13:34:22Z",
+      "currentSeason" : null,
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2052,
+      "name" : "Copa Pilsener Serie A",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Ecuador",
+        "id" : 2069
+      },
+      "lastUpdated" : "2019-05-27T21:15:03Z",
+      "currentSeason" : {
+        "endDate" : "2019-12-15",
+        "startDate" : "2019-02-10",
+        "winner" : null,
+        "id" : 439,
+        "currentMatchday" : 16
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2021,
+      "name" : "Premier League",
+      "plan" : "TIER_ONE",
+      "numberOfAvailableSeasons" : 27,
+      "code" : "PL",
+      "area" : {
+        "name" : "England",
+        "id" : 2072
+      },
+      "lastUpdated" : "2019-05-12T20:05:45Z",
+      "currentSeason" : {
+        "startDate" : "2019-08-10",
+        "id" : 468,
+        "winner" : null,
+        "endDate" : "2020-05-17",
+        "currentMatchday" : 1
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2056,
+      "name" : "FA Community Shield",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "England",
+        "id" : 2072
+      },
+      "lastUpdated" : "2018-06-05T00:05:10Z",
+      "currentSeason" : {
+        "currentMatchday" : null,
+        "id" : 472,
+        "winner" : null,
+        "startDate" : "2019-08-04",
+        "endDate" : "2019-08-04"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2030,
+      "name" : "League One",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 10,
+      "code" : "EL1",
+      "area" : {
+        "name" : "England",
+        "id" : 2072
+      },
+      "lastUpdated" : "2019-05-26T21:12:05Z",
+      "currentSeason" : {
+        "currentMatchday" : 46,
+        "winner" : null,
+        "startDate" : "2018-08-04",
+        "id" : 152,
+        "endDate" : "2019-05-04"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2053,
+      "name" : "National League",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "England",
+        "id" : 2072
+      },
+      "lastUpdated" : "2019-05-11T20:41:05Z",
+      "currentSeason" : {
+        "currentMatchday" : 46,
+        "id" : 174,
+        "startDate" : "2018-08-04",
+        "endDate" : "2019-04-27",
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2139,
+      "name" : "Football League Cup",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "FLC",
+      "area" : {
+        "name" : "England",
+        "id" : 2072
+      },
+      "lastUpdated" : "2019-02-24T21:43:52Z",
+      "currentSeason" : {
+        "currentMatchday" : null,
+        "winner" : null,
+        "startDate" : "2018-08-14",
+        "endDate" : "2019-02-24",
+        "id" : 176
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2054,
+      "name" : "League Two",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "EL2",
+      "area" : {
+        "name" : "England",
+        "id" : 2072
+      },
+      "lastUpdated" : "2019-05-25T20:18:05Z",
+      "currentSeason" : {
+        "startDate" : "2018-08-04",
+        "winner" : null,
+        "currentMatchday" : 46,
+        "id" : 153,
+        "endDate" : "2019-05-04"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2016,
+      "name" : "Championship",
+      "plan" : "TIER_ONE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "ELC",
+      "area" : {
+        "name" : "England",
+        "id" : 2072
+      },
+      "lastUpdated" : "2019-05-27T22:51:02Z",
+      "currentSeason" : {
+        "id" : 154,
+        "winner" : null,
+        "startDate" : "2018-08-03",
+        "currentMatchday" : 46,
+        "endDate" : "2019-05-05"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2055,
+      "name" : "FA Cup",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "FAC",
+      "area" : {
+        "name" : "England",
+        "id" : 2072
+      },
+      "lastUpdated" : "2019-05-19T07:00:00Z",
+      "currentSeason" : {
+        "id" : 207,
+        "winner" : null,
+        "startDate" : "2018-08-10",
+        "currentMatchday" : null,
+        "endDate" : "2019-05-18"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2057,
+      "name" : "Meistriliiga",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Estonia",
+        "id" : 2075
+      },
+      "lastUpdated" : "2019-06-23T05:05:01Z",
+      "currentSeason" : {
+        "currentMatchday" : 17,
+        "id" : 440,
+        "winner" : null,
+        "endDate" : "2019-11-09",
+        "startDate" : "2019-03-08"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2007,
+      "name" : "WC Qualification",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1,
+      "code" : null,
+      "area" : {
+        "name" : "Europe",
+        "id" : 2077
+      },
+      "lastUpdated" : "2018-06-05T00:06:41Z",
+      "currentSeason" : {
+        "startDate" : "2016-09-04",
+        "winner" : null,
+        "id" : 8,
+        "currentMatchday" : 10,
+        "endDate" : "2017-11-14"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2018,
+      "name" : "European Championship",
+      "plan" : "TIER_ONE",
+      "numberOfAvailableSeasons" : 1,
+      "code" : "EC",
+      "area" : {
+        "name" : "Europe",
+        "id" : 2077
+      },
+      "lastUpdated" : "2018-08-23T12:16:01Z",
+      "currentSeason" : {
+        "id" : 20,
+        "currentMatchday" : 3,
+        "endDate" : "2016-07-10",
+        "winner" : {
+          "name" : "Portugal",
+          "crestUrl" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/5c\/Flag_of_Portugal.svg",
+          "tla" : "POR",
+          "shortName" : "Portugal",
+          "id" : 765
+        },
+        "startDate" : "2016-06-10"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2146,
+      "name" : "UEFA Europa League",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 1,
+      "code" : "EL",
+      "area" : {
+        "name" : "Europe",
+        "id" : 2077
+      },
+      "lastUpdated" : "2019-05-30T05:30:01Z",
+      "currentSeason" : {
+        "id" : 293,
+        "winner" : null,
+        "startDate" : "2018-06-26",
+        "currentMatchday" : 7,
+        "endDate" : "2019-05-29"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2058,
+      "name" : "UEFA Women's EURO",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1,
+      "code" : null,
+      "area" : {
+        "name" : "Europe",
+        "id" : 2077
+      },
+      "lastUpdated" : "2018-06-05T00:06:08Z",
+      "currentSeason" : {
+        "currentMatchday" : 3,
+        "startDate" : "2017-07-16",
+        "id" : 62,
+        "endDate" : "2017-08-06",
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2001,
+      "name" : "UEFA Champions League",
+      "plan" : "TIER_ONE",
+      "numberOfAvailableSeasons" : 19,
+      "code" : "CL",
+      "area" : {
+        "name" : "Europe",
+        "id" : 2077
+      },
+      "lastUpdated" : "2019-06-02T06:00:03Z",
+      "currentSeason" : {
+        "winner" : null,
+        "endDate" : "2020-05-30",
+        "id" : 495,
+        "startDate" : "2019-06-25",
+        "currentMatchday" : null
+      },
+      "emblemUrl" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/b\/bf\/UEFA_Champions_League_logo_2.svg"
+    },
+    {
+      "id" : 2031,
+      "name" : "Veikkausliiga",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "VEI",
+      "area" : {
+        "name" : "Finland",
+        "id" : 2080
+      },
+      "lastUpdated" : "2019-06-24T00:00:11Z",
+      "currentSeason" : {
+        "endDate" : "2019-10-31",
+        "winner" : null,
+        "id" : 441,
+        "startDate" : "2019-04-01",
+        "currentMatchday" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2059,
+      "name" : "Suomen Cup",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Finland",
+        "id" : 2080
+      },
+      "lastUpdated" : "2019-06-15T18:25:58Z",
+      "currentSeason" : {
+        "winner" : null,
+        "currentMatchday" : 5,
+        "endDate" : "2019-08-31",
+        "startDate" : "2019-01-18",
+        "id" : 442
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2142,
+      "name" : "Ligue 2",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 21,
+      "code" : "FL2",
+      "area" : {
+        "name" : "France",
+        "id" : 2081
+      },
+      "lastUpdated" : "2019-06-03T21:25:02Z",
+      "currentSeason" : {
+        "endDate" : "2019-05-17",
+        "id" : 210,
+        "startDate" : "2018-07-27",
+        "winner" : null,
+        "currentMatchday" : 38
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2138,
+      "name" : "Coupe de France",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "France",
+        "id" : 2081
+      },
+      "lastUpdated" : "2019-04-28T09:35:22Z",
+      "currentSeason" : {
+        "endDate" : "2019-04-27",
+        "winner" : null,
+        "startDate" : "2018-11-17",
+        "currentMatchday" : null,
+        "id" : 418
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2135,
+      "name" : "Coupe de la Ligue",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "France",
+        "id" : 2081
+      },
+      "lastUpdated" : "2019-03-31T08:15:18Z",
+      "currentSeason" : {
+        "winner" : null,
+        "currentMatchday" : null,
+        "id" : 284,
+        "endDate" : "2019-03-30",
+        "startDate" : "2018-08-14"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2015,
+      "name" : "Ligue 1",
+      "plan" : "TIER_ONE",
+      "numberOfAvailableSeasons" : 8,
+      "code" : "FL1",
+      "area" : {
+        "name" : "France",
+        "id" : 2081
+      },
+      "lastUpdated" : "2019-06-03T09:55:00Z",
+      "currentSeason" : {
+        "currentMatchday" : 38,
+        "endDate" : "2019-05-25",
+        "winner" : null,
+        "id" : 177,
+        "startDate" : "2018-08-10"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2136,
+      "name" : "Trophée des Champions",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "France",
+        "id" : 2081
+      },
+      "lastUpdated" : "2018-06-05T00:08:21Z",
+      "currentSeason" : {
+        "currentMatchday" : null,
+        "id" : 466,
+        "startDate" : "2019-08-03",
+        "endDate" : "2019-08-03",
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2143,
+      "name" : "Playoffs 1\/2",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1,
+      "code" : null,
+      "area" : {
+        "name" : "France",
+        "id" : 2081
+      },
+      "lastUpdated" : "2018-07-12T14:32:17Z",
+      "currentSeason" : {
+        "startDate" : "2018-05-23",
+        "id" : 211,
+        "winner" : null,
+        "currentMatchday" : null,
+        "endDate" : "2018-05-27"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2144,
+      "name" : "Playoffs 2\/3",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1,
+      "code" : null,
+      "area" : {
+        "name" : "France",
+        "id" : 2081
+      },
+      "lastUpdated" : "2018-09-25T15:07:37Z",
+      "currentSeason" : {
+        "startDate" : "2018-05-22",
+        "endDate" : "2018-05-27",
+        "winner" : null,
+        "currentMatchday" : null,
+        "id" : 212
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2011,
+      "name" : "DFB-Pokal",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 3,
+      "code" : "DFB",
+      "area" : {
+        "name" : "Germany",
+        "id" : 2088
+      },
+      "lastUpdated" : "2019-05-26T16:40:04Z",
+      "currentSeason" : {
+        "endDate" : "2020-05-23",
+        "id" : 473,
+        "winner" : null,
+        "currentMatchday" : null,
+        "startDate" : "2019-08-09"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2134,
+      "name" : "DFL Super Cup",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "Germany",
+        "id" : 2088
+      },
+      "lastUpdated" : "2018-06-05T00:10:19Z",
+      "currentSeason" : {
+        "winner" : null,
+        "id" : 478,
+        "startDate" : "2019-08-03",
+        "endDate" : "2019-08-03",
+        "currentMatchday" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2004,
+      "name" : "2. Bundesliga",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 24,
+      "code" : "BL2",
+      "area" : {
+        "name" : "Germany",
+        "id" : 2088
+      },
+      "lastUpdated" : "2019-05-28T21:09:43Z",
+      "currentSeason" : {
+        "currentMatchday" : 34,
+        "id" : 157,
+        "startDate" : "2018-08-03",
+        "endDate" : "2019-05-19",
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2129,
+      "name" : "Regionalliga",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 3,
+      "code" : "REG",
+      "area" : {
+        "name" : "Germany",
+        "id" : 2088
+      },
+      "lastUpdated" : "2019-05-27T11:35:04Z",
+      "currentSeason" : {
+        "currentMatchday" : 1,
+        "endDate" : "2020-05-30",
+        "startDate" : "2019-07-11",
+        "winner" : null,
+        "id" : 477
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2140,
+      "name" : "3. Liga",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 8,
+      "code" : "BL3",
+      "area" : {
+        "name" : "Germany",
+        "id" : 2088
+      },
+      "lastUpdated" : "2019-05-28T21:14:43Z",
+      "currentSeason" : {
+        "endDate" : "2020-05-26",
+        "id" : 476,
+        "startDate" : "2019-07-11",
+        "winner" : null,
+        "currentMatchday" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2133,
+      "name" : "Frauen Bundesliga",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1,
+      "code" : null,
+      "area" : {
+        "name" : "Germany",
+        "id" : 2088
+      },
+      "lastUpdated" : "2018-06-05T00:09:39Z",
+      "currentSeason" : {
+        "endDate" : "2018-06-03",
+        "winner" : {
+          "tla" : null,
+          "shortName" : null,
+          "name" : "VfL Wolfsburg",
+          "crestUrl" : null,
+          "id" : 7522
+        },
+        "startDate" : "2017-09-02",
+        "id" : 142,
+        "currentMatchday" : 22
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2002,
+      "name" : "Bundesliga",
+      "plan" : "TIER_ONE",
+      "numberOfAvailableSeasons" : 24,
+      "code" : "BL1",
+      "area" : {
+        "name" : "Germany",
+        "id" : 2088
+      },
+      "lastUpdated" : "2019-05-27T22:30:42Z",
+      "currentSeason" : {
+        "startDate" : "2018-08-24",
+        "endDate" : "2019-05-18",
+        "winner" : null,
+        "currentMatchday" : 34,
+        "id" : 155
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2131,
+      "name" : "Greek Cup",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Greece",
+        "id" : 2093
+      },
+      "lastUpdated" : "2019-05-11T20:33:25Z",
+      "currentSeason" : {
+        "winner" : null,
+        "startDate" : "2018-08-26",
+        "currentMatchday" : 3,
+        "endDate" : "2019-08-26",
+        "id" : 420
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2132,
+      "name" : "Super League",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "GSL",
+      "area" : {
+        "name" : "Greece",
+        "id" : 2093
+      },
+      "lastUpdated" : "2019-05-22T20:58:03Z",
+      "currentSeason" : {
+        "startDate" : "2018-08-25",
+        "endDate" : "2019-05-05",
+        "winner" : null,
+        "currentMatchday" : 30,
+        "id" : 299
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2128,
+      "name" : "NB I",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "HNB",
+      "area" : {
+        "name" : "Hungary",
+        "id" : 2106
+      },
+      "lastUpdated" : "2019-05-20T13:40:04Z",
+      "currentSeason" : {
+        "id" : 179,
+        "winner" : null,
+        "currentMatchday" : 33,
+        "endDate" : "2019-05-19",
+        "startDate" : "2018-07-21"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2130,
+      "name" : "Magyar Kupa",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Hungary",
+        "id" : 2106
+      },
+      "lastUpdated" : "2019-05-26T16:40:04Z",
+      "currentSeason" : {
+        "startDate" : "2019-09-22",
+        "currentMatchday" : null,
+        "winner" : null,
+        "id" : 297,
+        "endDate" : "2019-05-01"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2127,
+      "name" : "Úrvalsdeild",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Iceland",
+        "id" : 2107
+      },
+      "lastUpdated" : "2019-06-23T23:26:18Z",
+      "currentSeason" : {
+        "startDate" : "2019-04-26",
+        "currentMatchday" : 10,
+        "winner" : null,
+        "id" : 443,
+        "endDate" : "2019-09-28"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2126,
+      "name" : "I-League",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "India",
+        "id" : 2108
+      },
+      "lastUpdated" : "2019-03-09T17:47:37Z",
+      "currentSeason" : {
+        "currentMatchday" : 21,
+        "winner" : null,
+        "endDate" : "2019-03-03",
+        "startDate" : "2018-10-26",
+        "id" : 421
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2125,
+      "name" : "Ligat ha'Al",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Israel",
+        "id" : 2113
+      },
+      "lastUpdated" : "2019-05-26T16:40:04Z",
+      "currentSeason" : {
+        "id" : 205,
+        "currentMatchday" : 10,
+        "winner" : null,
+        "endDate" : "2019-05-25",
+        "startDate" : "2018-08-25"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2124,
+      "name" : "Supercoppa",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Italy",
+        "id" : 2114
+      },
+      "lastUpdated" : "2019-01-17T08:15:01Z",
+      "currentSeason" : {
+        "winner" : null,
+        "endDate" : "2019-01-12",
+        "startDate" : "2019-01-12",
+        "id" : 159,
+        "currentMatchday" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2121,
+      "name" : "Serie B",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 14,
+      "code" : "SB",
+      "area" : {
+        "name" : "Italy",
+        "id" : 2114
+      },
+      "lastUpdated" : "2019-06-10T13:10:03Z",
+      "currentSeason" : {
+        "startDate" : "2018-08-24",
+        "id" : 294,
+        "endDate" : "2019-05-11",
+        "winner" : null,
+        "currentMatchday" : 38
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2019,
+      "name" : "Serie A",
+      "plan" : "TIER_ONE",
+      "numberOfAvailableSeasons" : 14,
+      "code" : "SA",
+      "area" : {
+        "name" : "Italy",
+        "id" : 2114
+      },
+      "lastUpdated" : "2019-05-27T15:35:05Z",
+      "currentSeason" : {
+        "winner" : null,
+        "endDate" : "2019-05-26",
+        "id" : 290,
+        "currentMatchday" : 38,
+        "startDate" : "2018-08-18"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2122,
+      "name" : "Coppa Italia",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "CIT",
+      "area" : {
+        "name" : "Italy",
+        "id" : 2114
+      },
+      "lastUpdated" : "2019-05-15T21:51:04Z",
+      "currentSeason" : {
+        "id" : 285,
+        "winner" : null,
+        "startDate" : "2018-07-28",
+        "currentMatchday" : null,
+        "endDate" : "2019-05-15"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2123,
+      "name" : "Serie C",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Italy",
+        "id" : 2114
+      },
+      "lastUpdated" : "2019-06-15T22:41:58Z",
+      "currentSeason" : {
+        "currentMatchday" : 38,
+        "startDate" : "2018-09-16",
+        "endDate" : "2019-05-05",
+        "winner" : null,
+        "id" : 298
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2120,
+      "name" : "Super Cup",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Japan",
+        "id" : 2116
+      },
+      "lastUpdated" : "2018-06-05T00:15:43Z",
+      "currentSeason" : {
+        "startDate" : "2019-02-16",
+        "winner" : null,
+        "currentMatchday" : null,
+        "endDate" : "2019-02-16",
+        "id" : 447
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2117,
+      "name" : "J. League Division 2",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Japan",
+        "id" : 2116
+      },
+      "lastUpdated" : "2019-06-23T15:49:58Z",
+      "currentSeason" : {
+        "id" : 445,
+        "endDate" : "2019-11-24",
+        "winner" : null,
+        "currentMatchday" : 19,
+        "startDate" : "2019-02-24"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2118,
+      "name" : "J.League Cup",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Japan",
+        "id" : 2116
+      },
+      "lastUpdated" : "2019-06-20T14:50:00Z",
+      "currentSeason" : {
+        "startDate" : "2019-03-06",
+        "id" : 446,
+        "currentMatchday" : 6,
+        "winner" : null,
+        "endDate" : "2019-10-26"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2119,
+      "name" : "J. League",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "JJL",
+      "area" : {
+        "name" : "Japan",
+        "id" : 2116
+      },
+      "lastUpdated" : "2019-06-23T14:59:58Z",
+      "currentSeason" : {
+        "id" : 444,
+        "winner" : null,
+        "currentMatchday" : 16,
+        "endDate" : "2019-12-07",
+        "startDate" : "2019-02-22"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2116,
+      "name" : "Virslīga",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Latvia",
+        "id" : 2129
+      },
+      "lastUpdated" : "2019-06-22T17:20:00Z",
+      "currentSeason" : {
+        "id" : 448,
+        "endDate" : "2019-11-09",
+        "startDate" : "2019-03-09",
+        "currentMatchday" : 19,
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2115,
+      "name" : "A Lyga",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Lithuania",
+        "id" : 2135
+      },
+      "lastUpdated" : "2019-06-23T19:53:38Z",
+      "currentSeason" : {
+        "currentMatchday" : 15,
+        "winner" : null,
+        "endDate" : "2019-10-26",
+        "startDate" : "2019-03-02",
+        "id" : 467
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2114,
+      "name" : "Premier League",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Malta",
+        "id" : 2143
+      },
+      "lastUpdated" : "2019-05-05T18:55:22Z",
+      "currentSeason" : {
+        "endDate" : "2019-04-25",
+        "startDate" : "2018-08-17",
+        "currentMatchday" : 25,
+        "id" : 160,
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2113,
+      "name" : "Liga MX",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "LMX",
+      "area" : {
+        "name" : "Mexico",
+        "id" : 2149
+      },
+      "lastUpdated" : "2019-05-27T12:18:42Z",
+      "currentSeason" : {
+        "endDate" : "2018-11-25",
+        "winner" : null,
+        "id" : 186,
+        "currentMatchday" : 17,
+        "startDate" : "2018-07-21"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2111,
+      "name" : "Copa MX",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "Mexico",
+        "id" : 2149
+      },
+      "lastUpdated" : "2019-04-12T21:15:01Z",
+      "currentSeason" : {
+        "currentMatchday" : null,
+        "winner" : null,
+        "startDate" : "2019-07-30",
+        "id" : 479,
+        "endDate" : "2020-04-15"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2112,
+      "name" : "SuperCopa MX",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "Mexico",
+        "id" : 2149
+      },
+      "lastUpdated" : "2018-06-05T00:17:16Z",
+      "currentSeason" : {
+        "currentMatchday" : null,
+        "startDate" : "2019-07-14",
+        "id" : 480,
+        "winner" : null,
+        "endDate" : "2019-07-14"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2109,
+      "name" : "KNVB Beker",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "KNV",
+      "area" : {
+        "name" : "Netherlands",
+        "id" : 2163
+      },
+      "lastUpdated" : "2019-05-06T23:40:13Z",
+      "currentSeason" : {
+        "winner" : null,
+        "startDate" : "2018-08-18",
+        "id" : 181,
+        "currentMatchday" : null,
+        "endDate" : "2018-08-25"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2003,
+      "name" : "Eredivisie",
+      "plan" : "TIER_ONE",
+      "numberOfAvailableSeasons" : 10,
+      "code" : "DED",
+      "area" : {
+        "name" : "Netherlands",
+        "id" : 2163
+      },
+      "lastUpdated" : "2019-05-28T23:44:43Z",
+      "currentSeason" : {
+        "winner" : null,
+        "id" : 481,
+        "currentMatchday" : 1,
+        "startDate" : "2019-08-09",
+        "endDate" : "2020-05-25"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2110,
+      "name" : "Johan Cruijff Schaal",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "Netherlands",
+        "id" : 2163
+      },
+      "lastUpdated" : "2018-06-05T00:18:23Z",
+      "currentSeason" : {
+        "winner" : null,
+        "currentMatchday" : null,
+        "endDate" : "2019-07-27",
+        "id" : 483,
+        "startDate" : "2019-07-27"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2005,
+      "name" : "Jupiler League",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 3,
+      "code" : "DJL",
+      "area" : {
+        "name" : "Netherlands",
+        "id" : 2163
+      },
+      "lastUpdated" : "2019-05-29T14:25:00Z",
+      "currentSeason" : {
+        "startDate" : "2019-08-09",
+        "id" : 482,
+        "currentMatchday" : 1,
+        "winner" : null,
+        "endDate" : "2020-05-01"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2107,
+      "name" : "Premiership",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "Northern Ireland",
+        "id" : 2171
+      },
+      "lastUpdated" : "2019-05-11T21:12:05Z",
+      "currentSeason" : {
+        "endDate" : "2020-05-11",
+        "currentMatchday" : null,
+        "startDate" : "2019-08-10",
+        "winner" : null,
+        "id" : 496
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2108,
+      "name" : "League Cup",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Northern Ireland",
+        "id" : 2171
+      },
+      "lastUpdated" : "2019-02-16T21:39:28Z",
+      "currentSeason" : {
+        "currentMatchday" : null,
+        "winner" : null,
+        "id" : 203,
+        "startDate" : "2018-08-04",
+        "endDate" : "2019-02-16"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2105,
+      "name" : "1. divisjon",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Norway",
+        "id" : 2173
+      },
+      "lastUpdated" : "2019-06-23T21:01:59Z",
+      "currentSeason" : {
+        "id" : 450,
+        "currentMatchday" : 12,
+        "endDate" : "2019-11-27",
+        "winner" : null,
+        "startDate" : "2019-03-30"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2106,
+      "name" : "Tippeligaen",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "TIP",
+      "area" : {
+        "name" : "Norway",
+        "id" : 2173
+      },
+      "lastUpdated" : "2019-06-23T23:00:58Z",
+      "currentSeason" : {
+        "winner" : null,
+        "startDate" : "2019-03-30",
+        "endDate" : "2019-11-30",
+        "currentMatchday" : 12,
+        "id" : 449
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2104,
+      "name" : "Playoffs 1\/2",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1,
+      "code" : null,
+      "area" : {
+        "name" : "Norway",
+        "id" : 2173
+      },
+      "lastUpdated" : "2018-06-05T00:20:23Z",
+      "currentSeason" : {
+        "endDate" : "2017-12-02",
+        "id" : 112,
+        "winner" : null,
+        "currentMatchday" : null,
+        "startDate" : "2017-11-29"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2103,
+      "name" : "WC Qualification",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1,
+      "code" : null,
+      "area" : {
+        "name" : "Oceania",
+        "id" : 2175
+      },
+      "lastUpdated" : "2018-06-05T00:20:43Z",
+      "currentSeason" : {
+        "winner" : null,
+        "startDate" : "2015-08-31",
+        "currentMatchday" : 6,
+        "id" : 111,
+        "endDate" : "2017-09-05"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2102,
+      "name" : "Liga Panameña de Fútbol",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Panama",
+        "id" : 2181
+      },
+      "lastUpdated" : "2019-06-02T04:01:02Z",
+      "currentSeason" : {
+        "currentMatchday" : 18,
+        "endDate" : "2019-05-31",
+        "startDate" : "2018-07-28",
+        "winner" : null,
+        "id" : 422
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2101,
+      "name" : "Primera División",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "PPD",
+      "area" : {
+        "name" : "Peru",
+        "id" : 2184
+      },
+      "lastUpdated" : "2019-06-12T01:30:00Z",
+      "currentSeason" : {
+        "endDate" : "2019-11-24",
+        "startDate" : "2019-02-17",
+        "winner" : null,
+        "id" : 451,
+        "currentMatchday" : 1
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2100,
+      "name" : "Puchar Polski",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "Poland",
+        "id" : 2186
+      },
+      "lastUpdated" : "2019-05-02T17:07:58Z",
+      "currentSeason" : {
+        "endDate" : "2020-05-02",
+        "winner" : null,
+        "startDate" : "2019-08-07",
+        "currentMatchday" : null,
+        "id" : 497
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2099,
+      "name" : "Superpuchar Polski",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "Poland",
+        "id" : 2186
+      },
+      "lastUpdated" : "2018-06-05T00:21:44Z",
+      "currentSeason" : {
+        "currentMatchday" : null,
+        "id" : 498,
+        "endDate" : "2020-07-13",
+        "startDate" : "2019-07-13",
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2096,
+      "name" : "Liga2 Cabovisão",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Portugal",
+        "id" : 2187
+      },
+      "lastUpdated" : "2019-05-20T20:10:07Z",
+      "currentSeason" : {
+        "endDate" : "2019-05-19",
+        "id" : 184,
+        "winner" : null,
+        "startDate" : "2018-08-11",
+        "currentMatchday" : 34
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2017,
+      "name" : "Primeira Liga",
+      "plan" : "TIER_ONE",
+      "numberOfAvailableSeasons" : 9,
+      "code" : "PPL",
+      "area" : {
+        "name" : "Portugal",
+        "id" : 2187
+      },
+      "lastUpdated" : "2019-05-20T22:05:06Z",
+      "currentSeason" : {
+        "winner" : null,
+        "startDate" : "2019-08-10",
+        "endDate" : "2020-05-19",
+        "id" : 484,
+        "currentMatchday" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2097,
+      "name" : "Supertaça Cândido de Oliveira",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "Portugal",
+        "id" : 2187
+      },
+      "lastUpdated" : "2018-06-05T00:22:37Z",
+      "currentSeason" : {
+        "id" : 485,
+        "startDate" : "2019-08-03",
+        "winner" : null,
+        "endDate" : "2019-08-03",
+        "currentMatchday" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2098,
+      "name" : "Taça de Portugal",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Portugal",
+        "id" : 2187
+      },
+      "lastUpdated" : "2019-05-25T21:25:14Z",
+      "currentSeason" : {
+        "endDate" : "2019-05-26",
+        "startDate" : "2018-09-09",
+        "currentMatchday" : null,
+        "winner" : null,
+        "id" : 425
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2095,
+      "name" : "Premier Division",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Republic of Ireland",
+        "id" : 2192
+      },
+      "lastUpdated" : "2019-06-15T13:35:02Z",
+      "currentSeason" : {
+        "currentMatchday" : 22,
+        "startDate" : "2019-02-15",
+        "winner" : null,
+        "endDate" : "2019-10-27",
+        "id" : 424
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2092,
+      "name" : "Liga II",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Romania",
+        "id" : 2194
+      },
+      "lastUpdated" : "2019-06-02T19:45:03Z",
+      "currentSeason" : {
+        "endDate" : "2019-05-31",
+        "currentMatchday" : 38,
+        "winner" : null,
+        "id" : 423,
+        "startDate" : "2018-07-21"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2093,
+      "name" : "Supercupa României",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Romania",
+        "id" : 2194
+      },
+      "lastUpdated" : "2018-06-05T00:23:54Z",
+      "currentSeason" : {
+        "startDate" : "2018-07-14",
+        "id" : 202,
+        "currentMatchday" : null,
+        "endDate" : "2018-07-14",
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2094,
+      "name" : "Liga I",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "RL1",
+      "area" : {
+        "name" : "Romania",
+        "id" : 2194
+      },
+      "lastUpdated" : "2019-06-12T19:59:37Z",
+      "currentSeason" : {
+        "currentMatchday" : 26,
+        "startDate" : "2018-07-20",
+        "endDate" : "2019-03-02",
+        "id" : 185,
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2089,
+      "name" : "Russian Cup",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Russia",
+        "id" : 2195
+      },
+      "lastUpdated" : "2019-05-23T15:45:02Z",
+      "currentSeason" : {
+        "endDate" : "2019-05-31",
+        "currentMatchday" : null,
+        "id" : 287,
+        "winner" : null,
+        "startDate" : "2018-07-21"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2090,
+      "name" : "Playoffs 1\/2",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1,
+      "code" : null,
+      "area" : {
+        "name" : "Russia",
+        "id" : 2195
+      },
+      "lastUpdated" : "2018-06-05T00:24:32Z",
+      "currentSeason" : {
+        "startDate" : "2018-05-17",
+        "id" : 96,
+        "endDate" : "2018-05-20",
+        "currentMatchday" : null,
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2091,
+      "name" : "Russian Super Cup",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Russia",
+        "id" : 2195
+      },
+      "lastUpdated" : "2018-06-05T00:24:42Z",
+      "currentSeason" : {
+        "winner" : null,
+        "startDate" : "2018-07-27",
+        "endDate" : "2018-07-27",
+        "currentMatchday" : null,
+        "id" : 199
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2088,
+      "name" : "FNL",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "Russia",
+        "id" : 2195
+      },
+      "lastUpdated" : "2019-06-02T18:09:26Z",
+      "currentSeason" : {
+        "endDate" : "2020-05-16",
+        "winner" : null,
+        "startDate" : "2019-07-07",
+        "id" : 486,
+        "currentMatchday" : 1
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2137,
+      "name" : "RFPL",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 3,
+      "code" : "RFPL",
+      "area" : {
+        "name" : "Russia",
+        "id" : 2195
+      },
+      "lastUpdated" : "2019-06-03T18:35:04Z",
+      "currentSeason" : {
+        "startDate" : "2019-07-28",
+        "id" : 487,
+        "currentMatchday" : 1,
+        "endDate" : "2020-06-02",
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2085,
+      "name" : "Championship",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Scotland",
+        "id" : 2204
+      },
+      "lastUpdated" : "2019-05-26T21:12:08Z",
+      "currentSeason" : {
+        "winner" : null,
+        "endDate" : "2019-05-04",
+        "currentMatchday" : 36,
+        "startDate" : "2018-08-04",
+        "id" : 197
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2086,
+      "name" : "Playoffs 2\/3",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1,
+      "code" : null,
+      "area" : {
+        "name" : "Scotland",
+        "id" : 2204
+      },
+      "lastUpdated" : "2018-06-05T00:25:54Z",
+      "currentSeason" : {
+        "winner" : null,
+        "endDate" : "2018-05-13",
+        "id" : 92,
+        "currentMatchday" : null,
+        "startDate" : "2018-05-02"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2087,
+      "name" : "Scottish Cup",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Scotland",
+        "id" : 2204
+      },
+      "lastUpdated" : "2019-05-25T18:54:27Z",
+      "currentSeason" : {
+        "currentMatchday" : null,
+        "endDate" : "2019-05-31",
+        "startDate" : "2018-08-11",
+        "id" : 288,
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2084,
+      "name" : "Premier League",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "SPL",
+      "area" : {
+        "name" : "Scotland",
+        "id" : 2204
+      },
+      "lastUpdated" : "2019-05-20T20:45:07Z",
+      "currentSeason" : {
+        "currentMatchday" : 33,
+        "id" : 196,
+        "endDate" : "2019-04-06",
+        "winner" : null,
+        "startDate" : "2018-08-04"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2083,
+      "name" : "ABSA Premiership",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "South Africa",
+        "id" : 2219
+      },
+      "lastUpdated" : "2019-05-12T18:20:16Z",
+      "currentSeason" : {
+        "startDate" : "2018-08-04",
+        "winner" : null,
+        "id" : 289,
+        "endDate" : "2019-08-11",
+        "currentMatchday" : 30
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2081,
+      "name" : "Copa Sudamericana",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "South America",
+        "id" : 2220
+      },
+      "lastUpdated" : "2019-05-31T21:10:00Z",
+      "currentSeason" : {
+        "winner" : null,
+        "endDate" : "2019-11-09",
+        "currentMatchday" : null,
+        "startDate" : "2019-02-06",
+        "id" : 428
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2082,
+      "name" : "WC Qualification",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1,
+      "code" : null,
+      "area" : {
+        "name" : "South America",
+        "id" : 2220
+      },
+      "lastUpdated" : "2018-06-05T00:27:01Z",
+      "currentSeason" : {
+        "winner" : null,
+        "id" : 88,
+        "endDate" : "2017-10-11",
+        "currentMatchday" : 18,
+        "startDate" : "2015-10-08"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2080,
+      "name" : "Copa America",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "South America",
+        "id" : 2220
+      },
+      "lastUpdated" : "2019-06-24T00:05:02Z",
+      "currentSeason" : {
+        "winner" : null,
+        "id" : 452,
+        "currentMatchday" : 3,
+        "startDate" : "2019-06-14",
+        "endDate" : "2019-07-07"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2014,
+      "name" : "Primera Division",
+      "plan" : "TIER_ONE",
+      "numberOfAvailableSeasons" : 26,
+      "code" : "PD",
+      "area" : {
+        "name" : "Spain",
+        "id" : 2224
+      },
+      "lastUpdated" : "2019-05-19T22:40:09Z",
+      "currentSeason" : {
+        "startDate" : "2018-08-17",
+        "id" : 281,
+        "currentMatchday" : 38,
+        "winner" : null,
+        "endDate" : "2019-05-26"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2078,
+      "name" : "Supercopa de España",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Spain",
+        "id" : 2224
+      },
+      "lastUpdated" : "2018-06-05T00:27:12Z",
+      "currentSeason" : {
+        "winner" : null,
+        "startDate" : "2018-08-12",
+        "currentMatchday" : null,
+        "endDate" : "2018-08-14",
+        "id" : 83
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2079,
+      "name" : "Copa del Rey",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "CDR",
+      "area" : {
+        "name" : "Spain",
+        "id" : 2224
+      },
+      "lastUpdated" : "2019-05-26T16:40:06Z",
+      "currentSeason" : {
+        "startDate" : "2018-09-05",
+        "winner" : null,
+        "id" : 291,
+        "currentMatchday" : null,
+        "endDate" : "2019-03-30"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2077,
+      "name" : "Segunda División",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 7,
+      "code" : "SD",
+      "area" : {
+        "name" : "Spain",
+        "id" : 2224
+      },
+      "lastUpdated" : "2019-06-24T00:05:02Z",
+      "currentSeason" : {
+        "endDate" : "2019-06-09",
+        "id" : 286,
+        "winner" : null,
+        "startDate" : "2018-08-17",
+        "currentMatchday" : 42
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2074,
+      "name" : "Superettan",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Sweden",
+        "id" : 2233
+      },
+      "lastUpdated" : "2019-06-24T07:54:37Z",
+      "currentSeason" : {
+        "endDate" : "2019-11-02",
+        "startDate" : "2019-03-31",
+        "winner" : null,
+        "id" : 454,
+        "currentMatchday" : 14
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2075,
+      "name" : "Playoffs 2\/3",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1,
+      "code" : null,
+      "area" : {
+        "name" : "Sweden",
+        "id" : 2233
+      },
+      "lastUpdated" : "2018-06-05T00:28:43Z",
+      "currentSeason" : {
+        "endDate" : "2017-11-11",
+        "currentMatchday" : null,
+        "id" : 79,
+        "startDate" : "2017-11-08",
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2076,
+      "name" : "Playoffs 1\/2",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1,
+      "code" : null,
+      "area" : {
+        "name" : "Sweden",
+        "id" : 2233
+      },
+      "lastUpdated" : "2018-06-05T00:28:54Z",
+      "currentSeason" : {
+        "startDate" : "2017-11-15",
+        "currentMatchday" : null,
+        "winner" : null,
+        "id" : 80,
+        "endDate" : "2017-11-19"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2073,
+      "name" : "Allsvenskan",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "ALL",
+      "area" : {
+        "name" : "Sweden",
+        "id" : 2233
+      },
+      "lastUpdated" : "2019-06-24T00:00:13Z",
+      "currentSeason" : {
+        "currentMatchday" : 18,
+        "id" : 453,
+        "endDate" : "2019-11-02",
+        "startDate" : "2019-03-31",
+        "winner" : null
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2071,
+      "name" : "Schweizer Pokal",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 3,
+      "code" : null,
+      "area" : {
+        "name" : "Switzerland",
+        "id" : 2234
+      },
+      "lastUpdated" : "2019-05-19T16:51:11Z",
+      "currentSeason" : {
+        "id" : 489,
+        "currentMatchday" : null,
+        "startDate" : "2019-08-20",
+        "winner" : null,
+        "endDate" : "2020-05-24"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2072,
+      "name" : "Super League",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 3,
+      "code" : "SSL",
+      "area" : {
+        "name" : "Switzerland",
+        "id" : 2234
+      },
+      "lastUpdated" : "2019-06-02T19:14:46Z",
+      "currentSeason" : {
+        "id" : 488,
+        "currentMatchday" : 1,
+        "winner" : null,
+        "startDate" : "2019-07-20",
+        "endDate" : "2020-05-28"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2070,
+      "name" : "Süper Lig",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "TSL",
+      "area" : {
+        "name" : "Turkey",
+        "id" : 2247
+      },
+      "lastUpdated" : "2019-05-26T21:17:29Z",
+      "currentSeason" : {
+        "winner" : null,
+        "endDate" : "2019-05-26",
+        "startDate" : "2018-08-10",
+        "id" : 192,
+        "currentMatchday" : 34
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2068,
+      "name" : "1. Lig",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Turkey",
+        "id" : 2247
+      },
+      "lastUpdated" : "2019-05-31T00:25:01Z",
+      "currentSeason" : {
+        "currentMatchday" : 34,
+        "winner" : null,
+        "startDate" : "2018-08-10",
+        "id" : 193,
+        "endDate" : "2019-05-18"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2069,
+      "name" : "TFF Süper Kupa",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Turkey",
+        "id" : 2247
+      },
+      "lastUpdated" : "2018-06-05T00:30:33Z",
+      "currentSeason" : {
+        "startDate" : "2018-08-05",
+        "endDate" : "2018-08-05",
+        "winner" : null,
+        "currentMatchday" : null,
+        "id" : 426
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2066,
+      "name" : "Playoffs 1\/2",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 1,
+      "code" : null,
+      "area" : {
+        "name" : "Ukraine",
+        "id" : 2253
+      },
+      "lastUpdated" : "2018-06-02T14:03:07Z",
+      "currentSeason" : {
+        "endDate" : "2018-05-27",
+        "id" : 70,
+        "currentMatchday" : null,
+        "winner" : null,
+        "startDate" : "2018-05-23"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2064,
+      "name" : "Premier Liha",
+      "plan" : "TIER_THREE",
+      "numberOfAvailableSeasons" : 3,
+      "code" : "UPL",
+      "area" : {
+        "name" : "Ukraine",
+        "id" : 2253
+      },
+      "lastUpdated" : "2019-06-09T15:05:02Z",
+      "currentSeason" : {
+        "currentMatchday" : 1,
+        "id" : 490,
+        "endDate" : "2020-05-21",
+        "winner" : null,
+        "startDate" : "2019-07-28"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2067,
+      "name" : "Superkubok Ukrainy",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Ukraine",
+        "id" : 2253
+      },
+      "lastUpdated" : "2018-06-05T00:30:59Z",
+      "currentSeason" : {
+        "winner" : null,
+        "startDate" : "2018-07-21",
+        "currentMatchday" : null,
+        "endDate" : "2018-07-21",
+        "id" : 191
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2065,
+      "name" : "Kubok Ukrainy",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Ukraine",
+        "id" : 2253
+      },
+      "lastUpdated" : "2019-05-16T17:20:03Z",
+      "currentSeason" : {
+        "winner" : null,
+        "startDate" : "2018-07-17",
+        "currentMatchday" : null,
+        "endDate" : "2019-05-15",
+        "id" : 190
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2145,
+      "name" : "MLS",
+      "plan" : "TIER_TWO",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "MLS",
+      "area" : {
+        "name" : "United States",
+        "id" : 2256
+      },
+      "lastUpdated" : "2019-06-24T02:30:04Z",
+      "currentSeason" : {
+        "winner" : null,
+        "currentMatchday" : null,
+        "id" : 429,
+        "startDate" : "2019-03-02",
+        "endDate" : "2019-11-10"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2063,
+      "name" : "Primera División",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Uruguay",
+        "id" : 2257
+      },
+      "lastUpdated" : "2019-06-05T21:56:18Z",
+      "currentSeason" : {
+        "winner" : null,
+        "currentMatchday" : 15,
+        "id" : 455,
+        "endDate" : "2019-11-30",
+        "startDate" : "2019-02-16"
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2062,
+      "name" : "Primera División",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Venezuela",
+        "id" : 2262
+      },
+      "lastUpdated" : "2019-06-24T01:05:03Z",
+      "currentSeason" : {
+        "startDate" : "2019-01-25",
+        "endDate" : "2019-12-07",
+        "id" : 456,
+        "winner" : null,
+        "currentMatchday" : 19
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2061,
+      "name" : "V-League",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Vietnam",
+        "id" : 2263
+      },
+      "lastUpdated" : "2019-06-17T13:50:02Z",
+      "currentSeason" : {
+        "currentMatchday" : 14,
+        "winner" : null,
+        "endDate" : "2019-12-07",
+        "startDate" : "2019-02-23",
+        "id" : 457
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2060,
+      "name" : "Welsh Premier League",
+      "plan" : "TIER_FOUR",
+      "numberOfAvailableSeasons" : 2,
+      "code" : null,
+      "area" : {
+        "name" : "Wales",
+        "id" : 2264
+      },
+      "lastUpdated" : "2019-05-19T20:58:33Z",
+      "currentSeason" : {
+        "startDate" : "2018-08-10",
+        "endDate" : "2019-01-12",
+        "id" : 188,
+        "winner" : null,
+        "currentMatchday" : 22
+      },
+      "emblemUrl" : null
+    },
+    {
+      "id" : 2000,
+      "name" : "FIFA World Cup",
+      "plan" : "TIER_ONE",
+      "numberOfAvailableSeasons" : 2,
+      "code" : "WC",
+      "area" : {
+        "name" : "World",
+        "id" : 2267
+      },
+      "lastUpdated" : "2018-08-23T12:16:17Z",
+      "currentSeason" : {
+        "endDate" : "2018-07-15",
+        "id" : 1,
+        "winner" : {
+          "shortName" : "France",
+          "name" : "France",
+          "tla" : "FRA",
+          "id" : 773,
+          "crestUrl" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/c\/c3\/Flag_of_France.svg"
+        },
+        "currentMatchday" : 3,
+        "startDate" : "2018-06-14"
+      },
+      "emblemUrl" : null
+    }
+  ]
+}
