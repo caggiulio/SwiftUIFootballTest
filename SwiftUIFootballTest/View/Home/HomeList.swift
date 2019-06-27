@@ -13,7 +13,7 @@ import Combine
 
 struct HomeListView : View {
     var list: HomeList
-    @EnvironmentObject var competitionsViewModel: CompetitionsViewModel
+    var competitionsViewModel = CompetitionsViewModel()
     
     var body: some View {
         NavigationView {
@@ -22,7 +22,7 @@ struct HomeListView : View {
                 Text("Football App")
                     .font(FontBook.Regular.of(size: 70))
                 
-                NavigationButton(destination: CompetitionsListSwiftUIView(competitions: competitionsViewModel.competitions)) {
+                NavigationButton(destination: CompetitionsListSwiftUIView(competitions: self.competitionsViewModel.competitions).environmentObject(competitionsViewModel)) {
                     HomeCellSwiftUIView(cell: list.list[0])
                 }
                 NavigationButton(destination: EmptyView()) {

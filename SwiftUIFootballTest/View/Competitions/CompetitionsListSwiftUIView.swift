@@ -11,22 +11,26 @@ import PromiseKit
 
 struct CompetitionsListSwiftUIView : View {
     
+    @EnvironmentObject var competitionsViewModel: CompetitionsViewModel
+    
     var competitions: [Competition]
     
     var body: some View {
-        List(competitions.identified(by: \.id)) { competition in
+        //to view preview use competitions and not competitionsViewModel
+        List(self.competitionsViewModel.competitions.identified(by: \.id)) { competition in
                 CompetitionCellSwiftUIView(competition: competition)
-            }/*.onAppear() {
+            }
+        .onAppear() {
                 //if we call on onAppear(), every time we open the view, we also update data
                 self.competitionsViewModel.getCompetitions()
-        }*/
+        }
     }
 }
 
 #if DEBUG
 struct CompetitionsListSwiftUIView_Previews : PreviewProvider {
     static var previews: some View {
-        CompetitionsListSwiftUIView(competitions: SharedMock.shared.mockCompetions())
+        CompetitionsListSwiftUIView(competitions: SharedMock.shared.mockCompetions()).environmentObject(CompetitionsViewModel())
     }
 }
 #endif

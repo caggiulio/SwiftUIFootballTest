@@ -21,8 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Use a UIHostingController as window root view controller
         let window = UIWindow(frame:  UIScreen.main.bounds)
-        let competitionsViewModel = CompetitionsViewModel()
-        window.rootViewController = UIHostingController(rootView: HomeListView(list: SharedMock.shared.mockHomeList()).environmentObject(competitionsViewModel))
+        window.rootViewController = UIHostingController(rootView: HomeListView(list: SharedMock.shared.mockHomeList()))
         self.window = window
         window.makeKeyAndVisible()
     }

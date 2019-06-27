@@ -246,9 +246,9 @@
 		4DD6E0A022C117DD003C259F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4DE3C5BC22C34BC2004F6F8D /* Competitions */,
 				4DD6E0A722C24D07003C259F /* Home */,
 				4DD6E0A322C22DEC003C259F /* EmptyViewSwiftUIView.swift */,
-				4DE3C5BC22C34BC2004F6F8D /* Competitions */,
 			);
 			path = View;
 			sourceTree = "<group>";
