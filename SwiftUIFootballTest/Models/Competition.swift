@@ -22,7 +22,7 @@ class Competition{
 	var name : String!
 	var numberOfAvailableSeasons : Int!
 	var plan : String!
-
+    var hasTeam: Bool!
 
 	/**
 	 * Instantiate the instance using the passed json values to set the properties values
@@ -46,6 +46,11 @@ class Competition{
 		name = json["name"].stringValue
 		numberOfAvailableSeasons = json["numberOfAvailableSeasons"].intValue
 		plan = json["plan"].stringValue
+        if plan == "TIER_ONE" {
+            hasTeam = true
+        } else {
+            hasTeam = false
+        }
 	}
 
 }

@@ -27,6 +27,18 @@ public class CompetitionsViewModel: BindableObject {
         }
     }
     
+    var competitionsWithTeams = [Competition]() {
+        didSet {
+            didChange.send(self)
+        }
+    }
+    
+    var changeList: Bool = false {
+        didSet {
+            didChange.send(self)
+        }
+    }
+    
     func getCompetitions(){
         firstly {
                 API().getAllCompetitions()
@@ -38,6 +50,9 @@ public class CompetitionsViewModel: BindableObject {
                     finalList.append(client)
                 }
                 self.competitions = finalList
+                self.competitionsWithTeams = finalList.filter({ (competion) -> Bool in
+                    return competion.hasTeam
+                })
             }.catch { (error) in
                 print(error)
         }

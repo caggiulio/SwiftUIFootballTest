@@ -32,21 +32,30 @@ struct CompetitionCell : View {
     
     var body: some View {
         
-        VStack {
+        HStack {
+            VStack {
                 Text(competition.name)
-                .font(FontBook.Regular.of(size: 50))
-            
-            Spacer()
-            if competition.currentSeason != nil {
-                Text(competition.currentSeason.startDate + "  " + competition.currentSeason.endDate)
-                    .font(FontBook.Regular.of(size: 25))
+                    .font(FontBook.Regular.of(size: 50))
                 
                 Spacer()
+                if competition.currentSeason != nil {
+                    Text(competition.currentSeason.startDate + "  " + competition.currentSeason.endDate)
+                        .font(FontBook.Regular.of(size: 25))
+                    
+                    Spacer()
+                }
+                
+                Text(competition.area.name)
+                    .font(FontBook.Regular.of(size: 25))
+                }
+                .frame(width: UIScreen.main.bounds.width * 0.9, height: 130, alignment: .center)
+            if competition.hasTeam {
+                Image("players")
+                    .resizable()
+                    .padding()
+                    .offset(x: -60, y: 0)
+                    .frame(width: 80, height: 80, alignment: .center)
             }
-            
-            Text(competition.area.name)
-                .font(FontBook.Regular.of(size: 25))
         }
-        .frame(width: UIScreen.main.bounds.width * 0.9, height: 130, alignment: .center)
     }
 }
