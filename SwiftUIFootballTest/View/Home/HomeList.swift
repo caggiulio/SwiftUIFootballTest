@@ -22,13 +22,13 @@ struct HomeListView : View {
                 Text("Football App")
                     .font(FontBook.Regular.of(size: 70))
                 
-                NavigationButton(destination: CompetitionsListSwiftUIView(competitions: self.competitionsViewModel.competitions).environmentObject(competitionsViewModel)) {
+                NavigationLink(destination: CompetitionsListSwiftUIView(competitions: self.competitionsViewModel.competitions).environmentObject(competitionsViewModel)) {
                     HomeCellSwiftUIView(cell: list.list[0])
                 }
-                NavigationButton(destination: EmptyView()) {
+                NavigationLink(destination: EmptyView()) {
                     HomeCellSwiftUIView(cell: list.list[1])
                 }
-                NavigationButton(destination: EmptyView()) {
+                NavigationLink(destination: EmptyView()) {
                     HomeCellSwiftUIView(cell: list.list[2])
                 }
             }.padding(.bottom, 120)
